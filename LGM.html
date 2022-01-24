@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="LGM.css">
+    <link rel="shortcut icon" type="image/png" href="imgused/logo1.jpg">
+    <script src="LGM.js"></script>
+    <title>Welcome To Zippy</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <a class="header" href="LGM.html"> <img src="imgused/logo.png" alt="logo"> </a>
+        <nav>
+            <a href="#hello">HOME</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#pricing">PRICING</a>
+            <a href="#OurTeam">TEAM</a>
+            <a href="#blog">BLOG</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+    </header>
+
+    <div class="Intro">
+        <p class="Heading">One Page Promising To Fill All Your Needs.</p>
+        <p class="Paragraph">Explore the world your way...</p>
+        <span><button>LEARN MORE</button></span>
+        <span><button>LEARN MORE</button></span>
+    </div>
+
+    <div class="slideshow">
+        <div class="slideshows fade">
+            <img src="imgused/a1.jpeg" alt="top image" style="display: block;">
+        </div>
+
+        <div class="slideshows fade">
+            <img src="imgused/a2.jpeg" alt="top image">
+        </div>
+
+        <div class="slideshows fade">
+            <img src="imgused/a3.jpeg" alt="top image">
+        </div>
+
+        <div class="slideshows fade">
+            <img src="imgused/a4.jpeg" alt="top image">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(+1)">&#10095;</a>
+
+    </div>
+
+    <div class="abccontainer style=" text-align:left">
+        <span class="abc" onclick="currentSlide(1)"></span>
+        <span class="abc" onclick="currentSlide(2)"></span>
+        <span class="abc" onclick="currentSlide(3)"></span>
+        <span class="abc" onclick="currentSlide(4)"></span>
+    </div>
+
+    <script>
+        showSlidesauto();
+    </script>
+
+    <div id="hello">
+        <div class="title">
+            <h1>Welcome to Zippy.com </h1>
+        </div>
+        <div class="para">
+            <div class="paragraph">
+                Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, 
+                graphic or web designs. The passage is attributed to an unknown typesetter in the 
+                15th century who is thought to have scrambled parts of Cicero's De Finibus 
+                Bonorum et Malorum for use in a type specimen book.
+            </div>
+            <img src="imgused/umbrella.png" alt="image">
+        </div>
+        <div class="services">
+            <div class="service">
+                <div class="service-image"><img src="imgused/notification.png" alt="img"></div>
+                <div class="service-title">PUSH NOTIFICATION</div>
+                <div class="service-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident
+                    cupiditate expedita nobis, aspernatur eaque officiis facilis odit ut atque dolore labore autem unde
+                    obcaecati dicta magni eligendi omnis architecto consequatur.</div>
+                <div class="service-button"><button>Learn More</button></div>
+            </div>
+            <div class="service">
+                <div class="service-image"><img src="imgused/email.png" alt="img"></div>
+                <div class="service-title">EMAIL SERVICES </div>
+                <div class="service-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident
+                    cupiditate expedita nobis, aspernatur eaque officiis facilis odit ut atque dolore labore autem unde
+                    obcaecati dicta magni eligendi omnis architecto consequatur.</div>
+                <div class="service-button"><button>Learn More</button></div>
+            </div>
+            <div class="service">
+                <div class="service-image"><img src="imgused/drawers.png" alt="img"></div>
+                <div class="service-title">DATABASE SERVICES</div>
+                <div class="service-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident
+                    cupiditate expedita nobis, aspernatur eaque officiis facilis odit ut atque dolore labore autem unde
+                    obcaecati dicta magni eligendi omnis architecto consequatur.</div>
+                <div class="service-button"><button>Learn More</button></div>
+            </div>
+        </div>
+    </div>
+    <hr width="100%">
+
+    <div id="projects">
+        <div class="title">
+            <h1>Our Services</h1>
+        </div>
+        <div class="projectspart">
+            <div class="Item">
+                <div class="Image"><img src="imgused/pr1.jpg" alt="project-img"></div>
+                <div class="Text">
+                    <div class="Name">Mockup Designing</div>
+                    <div class="Description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod itaque ad
+                        aliquam non fuga hic in, dignissimos alias qui! Eaque nobis reprehenderit deserunt? Minima
+                        repellat soluta corporis quas, veritatis aut!</div>
+                    <div class="PrButton"><button>Launch Case Study</button></div>
+                </div>
+            </div>
+
+            <div class="Item">
+                <div class="Image"><img src="imgused/pr2.jpg" alt="project-img"></div>
+                <div class="Text">
+                    <div class="Name">Website Development</div>
+                    <div class="Description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod itaque ad
+                        aliquam non fuga hic in, dignissimos alias qui! Eaque nobis reprehenderit deserunt? Minima
+                        repellat soluta corporis quas, veritatis aut!</div>
+                    <div class="PrButton"><button>Launch Case Study</button></div>
+                </div class="Text">
+            </div>
+
+            <div class="Item">
+                <div class="Image"><img src="imgused/pr3.jpg" alt="project-img"></div>
+                <div class="Text">
+                    <div class="Name">Poster Designing</div>
+                    <div class="Description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod itaque ad
+                        aliquam non fuga hic in, dignissimos alias qui! Eaque nobis reprehenderit deserunt? Minima
+                        repellat soluta corporis quas, veritatis aut!</div>
+                    <div class="PrButton"><button>Launch Case Study</button></div>
+                </div class="Text">
+            </div>
+
+            <div class="Item">
+                <div class="Image"><img src="imgused/pr4.jpg" alt="project-img"></div>
+                <div class="Text">
+                    <div class="Name">App Development</div>
+                    <div class="Description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod itaque ad
+                        aliquam non fuga hic in, dignissimos alias qui! Eaque nobis reprehenderit deserunt? Minima
+                        repellat soluta corporis quas, veritatis aut!</div>
+                    <div class="PrButton"><button>Launch Case Study</button></div>
+                </div class="Text">
+            </div>
+        </div>
+    </div>
+    <div id="pricing">
+        <div class="title">
+            <h1>Our Pricing</h1>
+        </div>
+        <div class="pricingContents">
+            <div class="pricingItem">
+                <h4 class="planName">Standard Plan</h4>
+                <p class="planPrice">Free</p>
+                <div class="planDetails">
+                    <div> 5 GB Disc Space</div>
+                    <div> 1 User</div>
+                    <div> 1 Website + 1 CMS Installation</div>
+                    <div> Contain Ads</div>
+                </div>
+                <p>
+                    <button>Start Now</button>
+                </p>
+            </div>
+
+            <div class="pricingItem">
+                <h4 class="planName">Business Plan</h4>
+                <p class="planPrice">20$/MONTH</p>
+                <div class="planDetails">
+                    <div> 25 GB Disc Space</div>
+                    <div> 3 Users</div>
+                    <div> 3 Websites + 3 CMS Installations </div>
+                    <div> Contain Ads</div>
+                </div>
+                <p>
+                    <button>Start Now</button>
+                </p>
+            </div>
+
+            <div class="pricingItem">
+                <h4 class="planName">Enterprise Plan</h4>
+                <p class="planPrice">50$/MONTH</p>
+                <div class="planDetails">
+                    <div> 100 GB Disc Space</div>
+                    <div> Unlimited Users</div>
+                    <div> Unlimited Websites and CMS Installations </div>
+                    <div> Ads Free</div>
+                </div>
+                <p>
+                    <button>Start Now</button>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="OurProjects">
+        <div class="title">
+            <h1>Our Projects</h1>
+        </div>
+
+        <div class="videoContainer">
+            <div class="video fade">
+                <video width="640px" controls>
+                    <source src="imgused/v1.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="video fade">
+                <video width="640px" controls>
+                    <source src="imgused/v2.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="video fade">
+                <video width="640px" controls>
+                    <source src="imgused/v3.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <a class="prev" onclick="plusVideoSlide(-1)">&#10094;</a>
+            <a class="next" onclick="plusVideoSlide(1)">&#10095;</a>
+
+        </div>
+    </div>
+
+    <script>
+        currentVideoSlide(1);
+    </script>
+
+    <div id="OurTeam">
+        <div class="title">
+            <h1>Our Team</h1>
+        </div>
+        <div class="teamMembers">
+            <div class="memberCard">
+                <div class="imageWrapper">
+                    <div class="purple"></div>
+                    <div class="profileLinks">
+                        <a href="#OurTeam"><img src="imgused/behance.png" alt="behance"></a>
+                        <a href="#OurTeam"><img src="imgused/linkedin.png" alt="linkedin"></a>
+                        <a href="#OurTeam"><img src="imgused/twitter.png" alt="twitter"></a>
+                    </div>
+                    <img class="profilepic" src="imgused/p1.jpg" alt="profile picture">
+                </div>
+                <p class="name"> MATT SMITH</p>
+                <p class="position">Marketing Head</p>
+            </div>
+
+            <div class="memberCard">
+                <div class="imageWrapper">
+                    <div class="purple"></div>
+                    <div class="profileLinks">
+                        <a href="#OurTeam"><img src="imgused/behance.png" alt="behance"></a>
+                        <a href="#OurTeam"><img src="imgused/linkedin.png" alt="linkedin"></a>
+                        <a href="#OurTeam"><img src="imgused/twitter.png" alt="twitter"></a>
+                    </div>
+                    <img class="profilepic" src="imgused/p2.jpg" alt="profile picture">
+                </div>
+                <p class="name">CHRIS PHILIPS</p>
+                <p class="position">Seo Expert </p>
+            </div>
+
+            <div class="memberCard">
+                <div class="imageWrapper">
+                    <div class="purple"></div>
+                    <div class="profileLinks">
+                        <a href="#OurTeam"><img src="imgused/behance.png" alt="behance"></a>
+                        <a href="#OurTeam"><img src="imgused/linkedin.png" alt="linkedin"></a>
+                        <a href="#OurTeam"><img src="imgused/twitter.png" alt="twitter"></a>
+                    </div>
+                    <img class="profilepic" src="imgused/p7.jpg" alt="profile picture">
+                </div>
+                <p class="name">ALEX MORGAN </p>
+                <p class="position">Marketing Manager </p>
+            </div>
+
+            <div class="memberCard">
+                <div class="imageWrapper">
+                    <div class="purple"></div>
+                    <div class="profileLinks">
+                        <a href="#OurTeam"><img src="imgused/behance.png" alt="behance"></a>
+                        <a href="#OurTeam"><img src="imgused/linkedin.png" alt="linkedin"></a>
+                        <a href="#OurTeam"><img src="imgused/twitter.png" alt="twitter"></a>
+                    </div>
+                    <img class="profilepic" src="imgused/p4.jpg" alt="profile picture">
+                </div>
+                <p class="name">MARIE LOUISE</p>
+                <p class="position">Art Manager</p>
+            </div>
+
+            <div class="memberCard">
+                <div class="imageWrapper">
+                    <div class="purple"></div>
+                    <div class="profileLinks">
+                        <a href="#OurTeam"><img src="imgused/behance.png" alt="behance"></a>
+                        <a href="#OurTeam"><img src="imgused/linkedin.png" alt="linkedin"></a>
+                        <a href="#OurTeam"><img src="imgused/twitter.png" alt="twitter"></a>
+                    </div>
+                    <img class="profilepic" src="imgused/p5.jpg" alt="profile picture">
+                </div>
+                <p class="name">SARA JOHNSON</p>
+                <p class="position">Creative Head</p>
+            </div>
+
+            <div class="memberCard">
+                <div class="imageWrapper">
+                    <div class="purple"></div>
+                    <div class="profileLinks">
+                        <a href="#OurTeam"><img src="imgused/behance.png" alt="behance"></a>
+                        <a href="#OurTeam"><img src="imgused/linkedin.png" alt="linkedin"></a>
+                        <a href="#OurTeam"><img src="imgused/twitter.png" alt="twitter"></a>
+                    </div>
+                    <img class="profilepic" src="imgused/p6.jpg" alt="profile picture">
+                </div>
+                <p class="name">SELEN JOHN</p>
+                <p class="position">Senior Designer</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="lifeAtZippy">
+        <div class="title" style="padding-top: 10px;">
+            <h1>Life At Zippy</h1>
+        </div>
+
+        <div class="imageGallary">
+            <div class="imageslide">
+                <img src="imgused/l1.jpeg" alt="gallary image">
+            </div>
+
+            <div class="imageslide">
+                <img src="imgused/l2.jpeg" alt="gallary image">
+            </div>
+
+            <div class="imageslide">
+                <img src="imgused/l3.jpeg" alt="gallary image">
+            </div>
+
+            <div class="imageslide">
+                <img src="imgused/l4.jpeg" alt="gallary image">
+            </div>
+
+            <div class="imageslide">
+                <img src="imgused/l5.jpeg" alt="gallary image">
+            </div>
+
+
+            <div class="row">
+                <span class="column">
+                    <a class="prev" style="position: absolute; background-color: gray; top: 92%;"
+                        onclick="plusSlidesGallary(-1)">&#10094;</a>
+                </span>
+                <span class="column">
+                    <img class="team cursor" src="imgused/l1.jpeg" style="width:100%"
+                        onclick="currentSlideGallary(1)" alt="thumbnail">
+                </span>
+                <span class="column">
+                    <img class="team cursor" src="imgused/l2.jpeg" style="width:100%"
+                        onclick="currentSlideGallary(2)" alt="thumbnail">
+                </span>
+                <span class="column">
+                    <img class="team cursor" src="imgused/l3.jpeg" style="width:100%"
+                        onclick="currentSlideGallary(3)" alt="thumbnail">
+                </span>
+                <span class="column">
+                    <img class="team cursor" src="imgused/l4.jpeg" style="width:100%"
+                        onclick="currentSlideGallary(4)" alt="thumbnail">
+                </span>
+                <span class="column">
+                    <img class="team cursor" src="imgused/l5.jpeg" style="width:100%"
+                        onclick="currentSlideGallary(5)" alt="thumbnail">
+                </span>
+                <span class="column">
+                    <a class="next" style="position: absolute; background-color: gray; top: 92%; right: 70px;"
+                        onclick="plusSlidesGallary(1)">&#10095;</a>
+                </span>
+            </div>
+        </div>
+        <script>
+            currentSlideGallary(1);
+        </script>
+    </div>
+
+    <div id="newsletter">
+        <div class="newsletterForm">
+           
+            <div class="title">
+                <h1>Newsletter Signup</h1>
+            </div>
+            <div class="form">
+                <div class="emailBox">
+                    <input type="text" name="email" id="email" placeholder="abc@example.com">
+                </div>
+                <div class="signupButton">
+                    <button>SIGN UP</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="blog">
+        <div class="title">
+            <h1>Our Blogs</h1>
+        </div>
+
+        <div class="blogContents">
+            <div class="blogItem">
+                <img src="imgused/b1.jpg" alt="blog picture">
+                <h5 class="blogTitle">Lorem ipsum</h5>
+                <p class="date">15th Jan, 2021</p>
+                <p class="blogIntro">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus commodi aut aliquid unde tempore modi sit vero ea voluptatibus blanditiis? Dolore quod excepturi ad deserunt? Dolor
+                    facilis sunt officiis quos.</p>
+                <button>READ MORE</button>
+            </div>
+
+            <div class="blogItem">
+                <img src="imgused/b2.jpg" alt="blog picture">
+                <h5 class="blogTitle">Lorem ipsum</h5>
+                <p class="date">16th Jan, 2021</p>
+                <p class="blogIntro">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus commodi aut aliquid unde tempore modi sit vero ea voluptatibus blanditiis? Dolore quod excepturi ad deserunt? Dolor
+                    facilis sunt officiis quos.</p>
+                <button>READ MORE</button>
+            </div>
+
+            <div class="blogItem">
+                <img src="imgused/b3.jpg" alt="blog picture">
+                <h5 class="blogTitle">Lorem ipsum</h5>
+                <p class="date">18th Jan, 2021</p>
+                <p class="blogIntro">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus commodi aut aliquid unde tempore modi sit vero ea voluptatibus blanditiis? Dolore quod excepturi ad deserunt? Dolor
+                    facilis sunt officiis quos.</p>
+                <button>READ MORE</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="mapiframe">
+            <iframe
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Alibaug+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+            </iframe>
+        </div>
+        <div class="ContactUs">
+            <div class="title">
+                <h1>Contact Us</h1>
+            </div>
+            <div class="contact">
+            <form action="">
+                <div>
+                    <label for="name">NAME</label>
+                </div> 
+                <div>
+                    <textarea name="name" id="textarea" cols="2" rows="2"></textarea>
+                </div>
+
+                <div>
+                    <label for="email">EMAIL ADDRESS</label>
+                </div>
+                <div>
+                    <textarea name="email" id="textarea" cols="2" rows="2"></textarea>
+                </div>
+
+                <div>
+                    <label for="subject">SUBJECT</label>
+                </div>
+                <div>
+                    <textarea name="subject" id="textarea" cols="2" rows="2"></textarea>
+                </div>
+
+                <div>
+                    <label for="message">MESSAGE</label>
+                </div>
+                <div class="textarea">
+                    <textarea name="textarea" id="" cols="30" rows="10"></textarea>
+                </div>
+
+                <button>SEND</button>
+            </div>
+        </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerItem">
+            <h5>Office Address</h5>
+            <div>Lorem ipsum dolor, 234</div>
+            <div>1200 consectetur</div>
+            <div>adipisicing</div>
+        </div>
+
+        <div class="footerItem">
+            <h5>Follow Us</h5>
+            <a href="#OurTeam"><img src="imgused/behance.png" alt="behance"></a>
+            <a href="#OurTeam"><img src="imgused/linkedin.png" alt="linkedin"></a>
+            <a href="#OurTeam"><img src="imgused/twitter.png" alt="twitter"></a>
+        </div>
+
+        <div class="footerItem">
+            <h5>Contact Us</h5>
+            <div>+ 123 456 789</div>
+            <div>zippy@skype</div>
+            <div>inquiry@zippy.com</div>
+        </div>
+    </footer>
+</body>
+
+</html>

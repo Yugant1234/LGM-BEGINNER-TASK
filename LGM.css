@@ -1,0 +1,603 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  h1 {
+    margin-bottom: 5%;
+  }
+  
+  nav {
+    position: absolute;
+    z-index: 10;
+    top: 30px;
+    right: 10%;
+  }
+
+  header img{
+
+    width: 150px;
+  }
+  
+  nav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  .header {
+    position: absolute;
+    z-index: 10;
+    top: 30px;
+    left: 20%;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f2f2f2;
+  }
+
+  .Intro {
+    position: absolute;
+    z-index: 10;
+    top: 20%;
+    left: 20%;
+    width: 40%;
+    color: #f2f2f2;
+  }
+  
+  .Heading {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .Paragraph {
+    font-size: 22px;
+  }
+  
+  .Intro button {
+    margin: 0;
+    width: auto;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+
+  .slideshows img {
+    vertical-align: middle;
+    width: 100%;
+    height: 600px;
+  }
+  
+  .slideshow {
+    margin: auto;
+    position: relative;
+  }
+  
+  .dotcontainer {
+    position: absolute;
+    top: 85%;
+    left: 30%;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+  
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
+    animation-name: fade;
+    animation-duration: 1s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {
+      opacity: 0.8;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.8;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  #hello {
+    padding: 0 25% 0 25%;
+    margin: 50px 0 50px 0;
+  }
+
+  #hello {
+    padding: 0 25% 0 25%;
+    margin: 50px 0 50px 0;
+  }
+
+  #hello img{
+
+    padding-left: 30px;
+    width: 120px;
+  }
+  
+  .para {
+    display: flex;
+  }
+  
+  .para img {
+    width: 30%;
+    color: rgb(146, 143, 143);
+  }
+  .title {
+    text-align: center;
+  }
+  
+  .services {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    text-align: justify;
+  }
+  
+  .service {
+    margin-top: 20px;
+    padding: 0 3% 0 3%;
+    width: 40%;
+  }
+  
+  .service-image img {
+
+    padding-left: 30px;
+    align-items: flex-start;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    width: 100px;
+  }
+  
+  .service-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .service-desc {
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+  
+  .service-button button {
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+  }
+  
+  button {
+    background-color: #FDCF00;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+  }
+  
+  button:hover {
+    background-color: rgb(183, 121, 211);
+    color: white;
+  }
+  
+  .projectimg {
+  
+    object-fit: contain;
+    
+  }
+
+
+  #pricing{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .projectspart {
+    display: flex;
+  }
+
+  #projects h1{
+
+    padding-top: 10px;
+  }
+  
+  #OurProjects {
+    background-color: rgb(97, 73, 123);
+    padding: 10px 0 50px 0;
+  }
+
+  #OurProjects h1{
+
+    padding-top: 20px;
+    color: white;
+  }
+  
+  .videoContainer {
+    position: relative;
+    margin: auto;
+  }
+  
+  .video {
+    display: none;
+    text-align: center;
+  }
+  
+  .teamMembers {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    grid-gap: 2% 2%;
+    text-align: center;
+  }
+  
+  .Item {
+    width: 25%;
+    background-color: rgb(239, 239, 239);
+  }
+  
+  .Item:hover {
+    background-color: rgb(255, 226, 109);
+  }
+  
+  .Image img {
+    width: 100%;
+    height: 400px;
+  }
+  
+  .Text {
+    padding: 10% 10% 10% 10%;
+  }
+  
+  .Name {
+    font-weight: bold;
+    margin-bottom: 5%;
+  }
+  
+  .Description {
+    margin-bottom: 5%;
+    color: grey;
+  }
+  
+  .PrButton button {
+    border-radius: 0%;
+    width: max-content;
+    height: 30px;
+  }
+  
+  .PrButton button:hover {
+    background-color: rgb(183, 121, 211);
+    color: white;
+  }
+  
+  #pricing {
+    text-align: justify;
+    margin: 0 25% 0 25%;
+  }
+  
+  .pricingContents {
+    padding-left: 30px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+  }
+  
+  .pricingItem {
+    margin: 0 3% 0 3%;
+  }
+  
+  .planPrice {
+    color: rgb(146, 143, 143);
+  }
+  
+  .pricingItem button{
+    width: auto;
+  }
+  
+  #OurTeam{
+    padding-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .imageWrapper {
+    position: relative;
+  }
+  
+  .memberCard {
+    margin-bottom: 5%;
+  }
+  
+  .memberCard img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+   border-radius: 60%;
+    top: 0%;
+    right: 0%;
+  }
+  
+  .purple {
+    padding-left: 5px;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 60%;
+    background-color: purple;
+    opacity: 50%;
+  }
+  
+  .profileLinks {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: transparent;
+  }
+  
+  .profileLinks img {
+    position: relative;
+    width: 40px;
+    height: 40px;
+  }
+
+  .profilepic{
+    justify-content: center;
+    object-fit: cover;
+  }
+  
+  .profilepic:hover {
+    opacity: 50%;
+    z-index: -1;
+  }
+  
+  .name {
+    font-weight: bold;
+  }
+  
+  .position {
+    color: grey;
+  }
+  
+  #lifeAtZippy {
+    background-color: rgb(239, 239, 239);
+    padding-bottom: 20px;
+  }
+  
+  #lifeAtZippy h1{
+
+    padding-top: 20px;
+  }
+
+
+  .imageGallary {
+    text-align: center;
+    margin: 0 25% 0 25%;
+    position: relative;
+    margin-bottom: 50px;
+  }
+  
+  .imageslide {
+    display: none;
+  }
+  
+  .imageslide img {
+    width: 640px;
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    width: 12%;
+    display: inline-block;
+    margin: 5px 5px 0 0;
+  }
+  
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  #newsletter {
+    padding-top: 10px;
+    background-image: url("imgused/newsletter.jpeg");
+    object-fit: contain;
+    background-repeat: no-repeat;
+    padding: 5% 25% 15% 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #newsletter h1{
+    border-color: black;
+    color: white;
+  }
+
+  .form {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  
+  .emailBox input {
+    margin-top: 20px;
+    width: 350px;
+    height: 40px;
+    box-sizing: border-box;
+  }
+  
+  .signupButton button {
+    box-sizing: border-box;
+    justify-content: right;
+    margin-top: 5px;
+    width: auto;
+    float: right;
+  }
+  
+  .blogContents {
+    margin: 0 25% 0 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+  }
+  
+  .blogItem {
+    margin: 0 3% 0 3%;
+  }
+  
+  .blogItem button{
+    width: auto;
+    align-items: flex-start;
+  }
+  
+  .blogContents img {
+    height: auto;
+    width: 100%;
+  }
+  
+  #contact {
+    margin: 40px 0 0 0;
+    display: flex;
+  }
+  
+  .mapiframe {
+    width: 50%;
+    height: 600px;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .ContactUs {
+    width: 50%;
+    background-color: rgb(255, 226, 109);
+  }
+  
+  .ContactUs h1 {
+    text-align: left;
+    padding-left: 30px;
+    margin-bottom: 7%;
+  }
+  
+  .ContactUs input{
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+
+
+
+  .ContactUs button {
+    margin: 0 0 3% 5%;
+    width: 300px;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .ContactUs textarea {
+    margin: 0 0 3% 5%;
+    width: 300px;
+    border-radius: 4px;
+    box-sizing: content-box;
+  }
+  
+  .ContactUs button {
+    background-color: rgb(202, 0, 202);
+    color: white;
+    height: 30px;
+  }
+  
+  .ContactUs button:hover {
+    background-color: rgb(97, 73, 123);
+  }
+  
+  .ContactUs label {
+    margin-left: 5%;
+  }
+
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
+    margin: 5% 0 5% 0;
+  }
+  
+  .footerItem {
+    margin: 0 5% 0 5%;
+  }
+  
+  .footerItem img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  
